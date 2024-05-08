@@ -11,5 +11,4 @@ router.add('https://nasa.gov')
 
 router.handle()
 window.onpopstate = () => router.handle()
-window.route = () => router.route()
-
+window
