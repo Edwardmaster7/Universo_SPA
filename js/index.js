@@ -7,8 +7,8 @@ const router = new Router(tabSwitch)
 router.add('/', '/pages/home.html')
 router.add('/universo', '/pages/universe.html')
 router.add('/exploracao', '/pages/exploration.html')
-router.add('https://nasa.gov')
 
 router.handle()
 window.onpopstate = () => router.handle()
-window
+window.route = () => router.route()
+
